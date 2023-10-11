@@ -1,0 +1,129 @@
+<!-- 
+Profile Image
+https://images.pexels.com/photos/3211476/pexels-photo-3211476.jpeg
+Project 1 Image
+https://images.pexels.com/photos/1029757/pexels-photo-1029757.jpeg
+Project 2 Image
+https://images.pexels.com/photos/242492/pexels-photo-242492.jpeg
+Project 3 Image
+https://images.pexels.com/photos/1476321/pexels-photo-1476321.jpeg
+-->
+
+<!DOCTYPE html>
+<html data-theme="light" lang="en">
+  <head>
+    <title>My Portfolio</title>
+    <!-- Pico.css library that gives us some default styles for text, buttons, etc -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <ul id="nav-items">
+        <li><a href="#profile" class="nav-item">Home</a></li>
+        <li><a href="#projects" class="nav-item">Projects</a></li>
+        <li><a href="#skills" class="nav-item">Skills</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="profile">
+        <div>
+          <h1 id="my-name">Sean Eppling</h1>
+          <h6>University of Houston</h6>
+          <p id="description">
+            Hi all, I'm a Computer Science major focusing on software
+            development and hoping for some great work and great experience!
+          </p>
+        </div>
+        <div>
+          <img
+            src="https://images.pexels.com/photos/3211476/pexels-photo-3211476.jpeg"
+            alt="professional headshot"
+            id="profile-picture"
+            height="200px"
+            width="200px"
+          />
+        </div>
+      </section>
+      <section id="projects">
+        <h3>Projects</h3>
+        <div id="project-cards">
+          <div class="project-card">
+            <img
+              src="https://images.pexels.com/photos/1029757/pexels-photo-1029757.jpeg"
+              alt="Obsidian Website Mock"
+            />
+            <div class="project-info">
+              <h4>Project 1</h4>
+              <p>
+                Describe imaginary project here
+              </p>
+              <a href="github.com/project1">Github</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <img
+              src="https://images.pexels.com/photos/242492/pexels-photo-242492.jpeg"
+              alt="Obsidian Website Mock"
+            />
+            <div class="project-info">
+              <h4>Project 2</h4>
+              <p>
+                Describe imaginary project here
+              </p>
+              <a href="github.com/project1">Github</a>
+            </div>
+          </div>
+
+        <div class="project-card">
+          <img
+            src="https://images.pexels.com/photos/1476321/pexels-photo-1476321.jpeg"
+            alt="Obsidian Website Mock"
+          />
+          <div class="project-info">
+            <h4>Project 3</h4>
+            <p>
+              Describe imaginary project here
+            </p>
+            <a href="github.com/project1">Github</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills">
+        <h3>Skills</h3>
+        <ul>
+          <li>
+            <div class="skill">
+              <h6>HTML/CSS</h6>
+              <p class="skill-description">
+                Responsive design, accessability
+              </p>
+            </div>
+          </li>
+          <li>
+            <div class="skill">
+              <h6>C++</h6>
+              <p class="skill-description">
+                Responsive design, accessability
+              </p>
+            </div>
+          </li>
+          <li>
+            <div class="skill">
+              <h6>Java Script</h6>
+              <p class="skill-description">
+                Responsive design, accessability
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>
